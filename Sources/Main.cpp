@@ -7,7 +7,7 @@ public:
     Example()
     {
         UseOnlyTextures(true);
-        SetTitle("Example");
+        GetWindow()->SetTitle("Example");
     }
 
 protected:
